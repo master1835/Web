@@ -1,0 +1,90 @@
+body
+{
+	background-color:#fff6f1;
+	font-family:"Cambria", Arial;
+	font-size:16px;
+}
+#contenido
+{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+h1
+{
+	color:#e44e2d;
+}
+nav ul li
+{
+	display:inline-block;	
+	margin-right:20x;
+	color:#1d1d1d;
+	cursor:pointer;
+	border-radius:5px;
+	padding:4px;
+	box-shadow:0px 0px 6px rgba(0,0,0,0.5);
+	
+}
+#textoPr
+{
+	width:600px;
+	height:300px;
+	background-color:#1d1d1d;
+	color:#fff;
+	margin:0 auto;
+	text-align:left;
+	border-radius:10px;
+	padding:10px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+}
+a
+{
+	color:#e44e2d;
+	font-weight:bold;
+}
+#miCanvas
+{
+	position:absolute;
+	boton:0px;
+	left:0px;
+	border:0;
+}
+meter
+{
+	background-color:#fff;
+	padding:2px;
+	border-radius:3px;
+	color:#e44e2d;
+	margin-left:20px;
+	width:200px;
+}
+label 
+{
+	display: block;
+	
+}
+#btnSubmit
+{
+	border:none;
+	background-color:#fff;
+	color: #e44e2d;
+	padding:4px;
+	margin:20px;
+	cursor:pointer;
+	border-radius:2px;
+}
+#calificacion
+{
+	width:150px;
+	-webkit-appearance:none;
+	background-color:#fff;
+	height:20px;
+	border-radius:5px;
+}
+#calificacion::-webkit-slider-thumb
+{
+	-webkit-appearance:none;
+	background-color:#e44e2d;
+	border-radius:5px;
+	height:15px;
+	width:10px;
